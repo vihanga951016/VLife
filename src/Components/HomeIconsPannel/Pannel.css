@@ -1,0 +1,65 @@
+.pannel-body{
+    width: 30%;
+    border-style: groove;
+    border-radius: 30px;
+    height: 150px;
+    margin: auto;
+    margin-top: -140px;
+
+
+}
+
+.pannel-title{
+    color: rgb(240, 236, 236);
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.anim-table{
+    margin-left: 120px;
+    
+       
+}
+
+.card-1{
+    width: 120px;
+    display: grid;
+    height: 60px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+    background-color: rgba(10, 64, 66);
+    color: blanchedalmond;
+    transition: 0.5s;
+    margin-left: -55px;
+    margin-top: 45px;
+}
+
+
+.card-1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(19, 114, 117);
+}
+
+
+.card-2{
+    width: 120px;
+    display: grid;
+    height: 60px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+    background-color: rgba(10, 64, 66);
+    color: blanchedalmond;
+    transition: 0.5s;
+    margin-top: 45px;
+    margin-left: 26px;
+}
+
+.card-2:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px black;
+    background-color: rgb(19, 114, 117);
+}
