@@ -1,0 +1,63 @@
+.form-division{
+    margin: auto;
+    width: 85%;
+    border-color: black;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+.form{
+    margin: auto;
+    width: 80%;
+}
+
+/* input{
+
+} */
+
+input[type=text] {
+    width: 550px;
+    border: none;
+    border-bottom: 2px solid red;
+    margin-left: 150px;
+    outline: none;
+    background-color: transparent;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    border-bottom: 2px solid green;
+    transition: 0.5s;
+}
+
+.submit-btn {
+    margin-left: 700px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-btn:hover{
+    background-color: turquoise;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.close-btn{
+    margin-left: 5px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(241, 60, 28);
+    border: none;
+    border-radius: 5px;
+}
+
+.close-btn:hover{
+    background-color: tomato;
+    transform: scale(1.1);
+    transition: 0.2s;
+}

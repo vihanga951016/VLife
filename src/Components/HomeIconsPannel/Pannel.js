@@ -1,5 +1,6 @@
 import React from 'react'
 import './Pannel.css'
+import ReactTooltip from 'react-tooltip';
 
 
 const Pannel = () => {
@@ -7,10 +8,12 @@ const Pannel = () => {
         <div className="pannel-body">
             <table className="anim-table">
                 <tr>
-                    <th>
-                    <a href="product.html" style={{textDecoration:'none'}}>
+                <ReactTooltip>
+                    <th >
+                    <a href="product.html" style={{textDecoration:'none'}} >
+                    
                         <div className="card-1">  
-                             <p style={{width:'77px',height:'19px',marginLeft:'20px',marginTop:'10px'}}>Job seeker's</p>
+                             <p style={{width:'77px',height:'19px',marginLeft:'20px',marginTop:'10px'}} data-tip="Home">Job seeker's</p>
                              {/* using this user can visible every post category. so that they have to search their category and find
                                 a suitable work for them*/}
                         </div>
@@ -25,6 +28,7 @@ const Pannel = () => {
                         </div>
                     </a>
                     </th>
+                    </ReactTooltip>
                 </tr>
             </table>
         </div>
